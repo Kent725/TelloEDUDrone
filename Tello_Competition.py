@@ -59,6 +59,8 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
+        sendmsg('forward 180',8)
+
         # Commit Message: First Hoop - Stable
 
         # Commit Message: Second Hoop - Stable
