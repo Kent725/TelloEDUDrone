@@ -58,17 +58,23 @@ try:
 
         sendmsg('command', 0)
 
+        sendmsg('battery?',8)
+
         sendmsg('takeoff', 8)
 
-        sendmsg('up 50',8)
+        sendmsg('flip b', 8)
 
-        sendmsg('forward 300', 8)
+        sendmsg('flip b', 8)
 
-        sendmsg('down 25', 8)
+        sendmsg('flip b', 8)
 
-        sendmsg('forward 300', 8)
+        sendmsg('flip b', 8)
+
+        sendmsg('flip b', 8)
 
         sendmsg('land')
+
+        sendmsg('battery?')
 
         print('\nGreat Flight!!!')
 
