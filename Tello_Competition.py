@@ -63,7 +63,7 @@ try:
 
         # Commit Message: First Hoop - Stable
 
-        sendmsg('go 210 0 70 100', 8)
+        sendmsg('go 205 0 70 100', 8)
 
         # Commit Message: Second Hoop - Stable
 
@@ -74,6 +74,8 @@ try:
         sendmsg('go -250 0 -50 100', 8)
 
         # Commit Message: Fourth Hoop - Stable
+
+        sendmsg('back 170', 8)
 
         # Commit Message: Final Hoop - Stable
 
