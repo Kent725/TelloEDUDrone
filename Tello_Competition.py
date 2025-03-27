@@ -79,6 +79,8 @@ try:
 
         # Commit Message: Final Hoop - Stable
 
+        sendmsg('go -220 0 50 100', 8)
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
