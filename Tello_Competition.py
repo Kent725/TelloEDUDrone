@@ -67,7 +67,7 @@ try:
 
         # Commit Message: Second Hoop - Stable
 
-        sendmsg('curve 100 100 0 0 100 0 60',8)
+        sendmsg('curve 100 260 0 0 260 0 60',16)
 
         # Commit Message: Third Hoop - Stable
 
