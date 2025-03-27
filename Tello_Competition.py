@@ -71,6 +71,8 @@ try:
 
         # Commit Message: Third Hoop - Stable
 
+        sendmsg('go -250 0 -50 100', 8)
+
         # Commit Message: Fourth Hoop - Stable
 
         # Commit Message: Final Hoop - Stable
