@@ -59,6 +59,8 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
+        sendmsg('battery?')
+
         sendmsg('forward 200',8)
 
         # Commit Message: First Hoop - Stable
